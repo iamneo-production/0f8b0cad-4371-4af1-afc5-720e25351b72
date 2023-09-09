@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fav Food</title>
+<title>My Favorite Foods</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.food {
+  float: left;
+  width: 33%;
+  padding: 0 15px;
+}
+
+.food img {
+  width: 100%;
+}
+
+.food h2 {
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+</style>
 </head>
 <body>
-    
+<div class="container">
+  <div class="header">
+    <h1>My Favorite Foods</h1>
+  </div>
+  <div class="content">
+    <div class="food">
+      <img src="pizza.jpg" alt="Pizza">
+      <h2>Pizza</h2>
+    </div>
+    <div class="food">
+      <img src="fried-chicken.jpg" alt="Fried Chicken">
+      <h2>Fried Chicken</h2>
+    </div>
+    <div class="food">
+      <img src="salad.jpg" alt="Salad">
+      <h2>Salad</h2>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright &copy; 2023</p>
+  </div>
+</div>
 </body>
 </html>
